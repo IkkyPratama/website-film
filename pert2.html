@@ -1,0 +1,137 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming WEB dengan HTML</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .line {
+            width: 95%;
+            border: none;
+            border-top: 2px solid black;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            text-align: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .menu {
+            margin-top: 20px;
+            margin-left: 20px;
+            text-align: left;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: black;
+            padding: 0 20px;
+            font-size: 18px;
+        }
+
+        .menu a:not(:last-child)::after {
+            content: "|";
+            margin-left: 20px;
+        }
+
+        .content {
+            text-align: left;
+            margin-top: 20px;
+            padding: 0 20px;
+        }
+
+        .footer {
+            text-align: left;
+            margin-top: 40px;
+            margin-left: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Programming Web dengan HTML</h1>
+        <p>Teknologi Informatika</p>
+        <hr class="line">
+    </div>
+
+    <div class="menu">
+        <a href="pert2.html">Home</a>
+        <a href="pert4.html">Trailer Film</a>
+        <a href="profil.html">Profil</a>
+        <a href="about.html">About</a>
+        <a href="kontak.html">Kontak</a>
+        <hr class="line">
+    </div>
+
+    <div class="header">
+        <h2>Kumpulan Anime Naruto & Boruto</h2>
+        <hr class="line">
+    </div>
+
+    <div class="content">
+
+        <h3>1. Naruto Shippuden</h3>
+        <img src="image/sippuden.jpeg" width="150" alt="Poster Boruto">
+        <p>Harga Tiket: Rp. 100.000</p>
+        <p>Deskripsi: Petualangan Naruto bersama teman-temannya untuk melindungi desa dan menghadapi berbagai musuh.</p>
+
+        <h3>2. Naruto The Last</h3>
+        <img src="image/thelast.jpeg" width="150" alt="Poster Boruto">
+        <p>Harga Tiket: Rp. 159.000</p>
+        <p>Deskripsi: Cerita Naruto setelah Perang Dunia Ninja Keempat dan hubungannya dengan Hinata.</p>
+
+        <h3>3. Boruto The Next Generation</h3>
+        <img src="image/boruto.jpeg" width="150" alt="Poster Boruto">
+        <p>Harga Tiket: Rp. 200.000</p>
+        <p>Deskripsi: Kisah Boruto dan generasi ninja baru dalam menghadapi berbagai tantangan.</p>
+
+        <h3>4. Boruto The Blue Vortex</h3>
+        <img src="image/vortex.jpeg" width="150" alt="Poster Boruto">
+        <p>Harga Tiket: Rp. 280.000</p>
+        <p>Deskripsi: Kelanjutan perjalanan Boruto setelah time skip dengan konflik yang semakin besar.</p>
+
+    <hr class="line">
+
+        <div class="paket">
+            <h2>Paket Berlangganan</h2>
+            <p class="subjudul">Pilih paket yang sesuai untuk menikmati koleksi film kami</p>
+
+            <ol>
+                <li class="paket-item">
+                    <h3>Paket Basic</h3>
+                    <p class="harga">Rp80.000 <small>/bulan</small></p>
+                    <p>Menonton film dengan kualitas HD</p>
+                </li>
+
+                <li class="paket-item">
+                    <h3>Paket Premium</h3>
+                    <p class="harga">Rp230.000 <small>/bulan</small></p>
+                    <p>Menonton film dengan kualitas Full HD tanpa iklan</p>
+                </li>
+
+                <li class="paket-item">
+                    <h3>Paket VIP</h3>
+                    <p class="harga">Rp375.000 <small>/bulan</small></p>
+                    <p>Menonton semua film dengan kualitas 4K dan tanpa iklan</p>
+                </li>
+            </ol>
+        </div>
+
+        <p>&copy; 2026 Kumpulan Anime Naruto & Boruto</p>
+
+    </div>
+
+</body>
+</html>

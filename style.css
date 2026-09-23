@@ -1,0 +1,177 @@
+/* Reset Default Margin/Padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header/Profile */
+.profile {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+.profile .job-title {
+    font-size: 18px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.profile .bio {
+    font-size: 16px;
+    color: #555;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Kontak Info */
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.contact-info ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Pendidikan */
+.education ul {
+    list-style: none;
+    padding: 0;
+}
+
+.education ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Keterampilan */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.paket {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+
+.paket h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.subjudul {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.paket ol {
+    display: flex;
+    gap: 20px;
+    padding-left: 25px;
+    margin: 0;
+}
+
+.paket-item {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.paket-item h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.harga {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.harga small {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.paket-item p:last-child {
+    color: #555;
+    line-height: 1.5;
+}

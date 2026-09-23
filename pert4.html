@@ -1,0 +1,118 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming WEB dengan HTML</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .line {
+            width: 95%;
+            border: none;
+            border-top: 2px solid black;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            text-align: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .menu {
+            margin-top: 20px;
+            margin-left: 20px;
+            text-align: left;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: black;
+            padding: 0 20px;
+            font-size: 18px;
+        }
+
+        .menu a:not(:last-child)::after {
+            content: "|";
+            margin-left: 20px;
+        }
+
+        .content {
+            text-align: left;
+            margin-top: 20px;
+            padding: 0 20px;
+        }
+
+        .footer {
+            text-align: left;
+            margin-top: 40px;
+            margin-left: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Programming Web dengan HTML</h1>
+        <p>Teknologi Informatika</p>
+        <hr class="line">
+    </div>
+
+    <div class="menu">
+        <a href="pert2.html">Home</a>
+        <a href="pert4.html">Trailer Film</a>
+        <a href="profil.html">Profil</a>
+        <a href="about.html">About</a>
+        <a href="kontak.html">Kontak</a>
+        <hr class="line">
+    </div>
+
+    <div class="header">
+        <h2>Trailer Anime Naruto & Boruto</h2>
+    </div>
+
+    <div style="text-align: center;">
+    <button onclick ="tekanPause()">Play/Pause</button>
+    <button onclick ="menjadiBig()">Big</button>
+    <button onclick ="menjadiSmall()">Small</button>
+    <button onclick ="menjadiNormal()">Normal</button>
+
+    <br><br>
+    
+    
+    <video id ="VideoAku" width="430">
+    
+    <source src="image/Sasuke.mp4" type="video/mp4">
+    <source src="videoBB.ogg" type="video/ogg">
+    Browser anda tidak support video HTML 5 </video>
+    </div>
+
+    <script>
+        var VideoAku = document.getElementById("VideoAku");
+        function tekanPause(){
+            if (VideoAku.paused)
+            VideoAku.play();
+        else
+            VideoAku.pause();
+        }
+        function menjadiBig(){
+            VideoAku.width = 560;
+                    length = 560;
+        }
+        function menjadiSmall(){
+            VideoAku.width = 320;
+        }
+        function menjadiNormal(){
+            VideoAku.width = 430;
+        }
+</script> 
+</body>
+</html>

@@ -1,0 +1,123 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming WEB dengan HTML</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .line {
+            width: 95%;
+            border: none;
+            border-top: 2px solid black;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        body {
+            font-family: 'Times New Roman', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            text-align: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        .menu {
+            margin-top: 20px;
+            margin-left: 20px;
+            text-align: left;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: black;
+            padding: 0 20px;
+            font-size: 18px;
+        }
+
+        .menu a:not(:last-child)::after {
+            content: "|";
+            margin-left: 20px;
+        }
+
+        .content {
+            text-align: left;
+            margin-top: 20px;
+            padding: 0 20px;
+        }
+
+        .footer {
+            text-align: left;
+            margin-top: 40px;
+            margin-left: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Programming Web dengan HTML</h1>
+        <p>Teknologi Informatika</p>
+        <hr class="line">
+    </div>
+
+    <div class="menu">
+        <a href="pert2.html">Home</a>
+        <a href="pert4.html">Trailer Film</a>
+        <a href="profil.html">Profil</a>
+        <a href="about.html">About</a>
+        <a href="kontak.html">Kontak</a>
+        <hr class="line">
+    </div>
+
+    <div class="container">
+        <!-- Header / Profil -->
+        <header class="profile">
+            <img src="image/profil_ikky.jpeg" alt="Foto Profil" class="profile-img">
+            <h2>Dhen Firmans Pratama</h2>
+            <p class="job-title">Web Developer</p>
+            <p class="bio">Saya seorang web developer yang bersemangat dengan pengalaman dalam membangun aplikasi web modern menggunakan teknologi terbaru.</p>
+        </header>
+
+        <!-- Info Data Diri -->
+        <section class="contact-info">
+            <h2>Data Diri</h2>
+            <ul>
+                <li>Nama: Dhen Firmans Pratama</li>
+                <li>TTL: Lebak, 23 Desember 2003</li>
+                <li>Telepon: +62 831 0685 5332</li>
+                <li>Alamat: Jln.RE. Martadinata Kp.Semi RT002/RW002 Desa Narimbang Mulya, Kota Rangkasbitung, Provinsi Banten</li>
+            </ul>
+        </section>
+
+        <!-- Pendidikan -->
+        <section class="education">
+            <h2>Pendidikan</h2>
+            <ul>
+                <li><strong>Universitas Pamulang</strong> (2022 - 2027) - Sarjana Teknik Informatika</li>
+                <li><strong>MAN 1 LEBAK</strong> (2019 - 2022) - Ilmu Pengetahuan Sosial</li>
+                <li><strong>MTSn 1 LEBAK</strong> (2017 - 2019) - Ilmu Agama</li>
+            </ul>
+        </section>
+
+        <!-- Keterampilan -->
+        <section class="skills">
+            <h2>Keterampilan</h2>
+            <ul>
+                <li>HTML, PHP & CSS</li>
+            </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Firmans Pratama.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
