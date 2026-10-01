@@ -175,3 +175,48 @@ footer p {
     color: #555;
     line-height: 1.5;
 }
+
+
+/* Tabel Rekomendasi Film */
+.rekomendasi {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.tabel-film {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.tabel-film th,
+.tabel-film td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabel-film th {
+    background-color: #f0f0f0;
+}
+
+.tabel-film img {
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 700px) {
+    .tabel-film {
+        font-size: 14px;
+    }
+
+    .tabel-film th,
+    .tabel-film td {
+        padding: 7px;
+    }
+
+    .tabel-film img {
+        width: 65px;
+    }
+}
